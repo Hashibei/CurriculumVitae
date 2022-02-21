@@ -1,0 +1,113 @@
+/****************************************************/
+/********************* LEIA-ME **********************/
+/****************************************************/
+/*
+ * Esse arquivo de CSS usa as regras de BEM.
+ * Para informações de como compreender e desenvolver 
+ * nesse modelo acesse: http://getbem.com/introduction/
+ * Regras de CSS desenvolvidas por Joseph Oliveira Correa.
+*/
+/****************************************************/
+/******************** INFORMAÇÕES *******************/
+/****************************************************/
+/*
+ * t - Refere-se a "Tema". Neste tipo de bloco estão 
+ * contidas todas as regras de css que não envolvem a 
+ * parte estrutural do site, mas sim sua estética.
+*/
+/****************************************************/
+/*********************** ROOT ***********************/
+/****************************************************/
+:root{
+    --c-azul-1: #013974;
+    --c-azul-2: #002a53;
+    --c-cinza-1: #cccccc;
+    --c-cinza-2: #2c2c2c;
+    --c-branco: #ffffff;
+    --c-preto: #000000;
+    --f-size-small: 14px;
+    --f-size-normal: 16px;
+    --f-size-big: 26px;
+}
+
+/****************************************************/
+/********************** FONTES **********************/
+/****************************************************/
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fontes/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/****************************************************/
+/*********************** TEMA ***********************/
+/****************************************************/
+.t-tema{
+    font-family: "RobotoRegular";
+    font-size: var(--f-size-normal);
+}
+
+/****************************************************/
+/******************** APLICACAO *********************/
+/****************************************************/
+.t-tema.c-app{
+    background-color: var(--c-cinza-1);
+}
+
+/****************************************************/
+/******************** DOCUMENTO *********************/
+/****************************************************/
+.t-tema .c-doc{
+    background-color: var(--c-branco);
+}
+
+/****************************************************/
+/******************** DIVISORIA *********************/
+/****************************************************/
+
+.t-tema .c-hr{
+    border-color: var(--c-azul-1);
+}
+
+/****************************************************/
+/********************** TEXTO ***********************/
+/****************************************************/
+
+.t-tema .c-txt{
+    color: var(--c-cinza-2);
+    font-size: var(--f-size-small);
+}
+
+.t-tema .c-txt--azul{
+    color: var(--c-azul-2);
+}
+
+.t-tema .c-txt--branco{
+    color: var(--c-branco);
+}
+
+.t-tema .c-txt--tt{
+    font-size: var(--f-size-normal);
+}
+
+.t-tema .c-txt--tt-alt{
+    font-size: var(--f-size-big);
+}
+
+.t-tema .c-txt--tt.c-txt--branco{
+    background-color: var(--c-azul-2);
+}
+
+.t-tema .c-txt--tt-alt.c-txt--branco{
+    background-color: var(--c-azul-1);
+}
+
+/****************************************************/
+/******************** CONTEUDO **********************/
+/****************************************************/
+
+.t-tema .c-ct--azul{
+    background-color: var(--c-azul-1);
+}
