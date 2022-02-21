@@ -59,7 +59,7 @@
 .c-ct{
     display: grid;
     grid-gap: 10px;
-    padding: 10px 15px;
+    padding: 15px;
 }
 
 /****************************************************/
@@ -69,6 +69,16 @@
 .c-it{
     display: grid;
     grid-gap: 5px;
+}
+
+/****************************************************/
+/*********************** LISTA **********************/
+/****************************************************/
+
+.c-ls{
+    display: grid;
+    grid-gap: 5px;
+    padding: 10px;
 }
 
 /****************************************************/
@@ -88,34 +98,8 @@
 /****************************************************/
 
 .c-bar{
-    height: 10px;
-    background-color: var(--c-azul-2);
+    height: 12px;
 }
-
-/* 
-.barra-10{
-    background: linear-gradient(to right, #007e33 0%,#007e33 10%,#c6c6c6 10%,#dbdbdb 100%);
-}
-
-.barra-20{
-    background: linear-gradient(to right, #007e33 0%,#007e33 20%,#c6c6c6 20%,#dbdbdb 100%);
-}
-
-.barra-30{
-    background: linear-gradient(to right, #007e33 0%,#007e33 30%,#c6c6c6 30%,#dbdbdb 100%);
-}
-
-.barra-40{
-    background: linear-gradient(to right, #007e33 0%,#007e33 40%,#c6c6c6 40%,#dbdbdb 100%);
-}
-
-.barra-50{
-    background: linear-gradient(to right, #007e33 0%,#007e33 50%,#c6c6c6 50%,#dbdbdb 100%);
-}
-
-.barra-60{
-    background: linear-gradient(to right, #007e33 0%,#007e33 60%,#c6c6c6 60%,#dbdbdb 100%);
-} */
 
 /****************************************************/
 /******************** DIVISORIA *********************/

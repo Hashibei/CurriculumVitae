@@ -25,9 +25,11 @@
     --c-cinza-2: #2c2c2c;
     --c-branco: #ffffff;
     --c-preto: #000000;
+    --f-size-tiny: 12px;
     --f-size-small: 14px;
     --f-size-normal: 16px;
-    --f-size-big: 26px;
+    --f-size-big: 18px;
+    --f-size-huge: 25px;
 }
 
 /****************************************************/
@@ -47,6 +49,7 @@
 .t-tema{
     font-family: "RobotoRegular";
     font-size: var(--f-size-normal);
+    line-height: 1.5;
 }
 
 /****************************************************/
@@ -80,6 +83,14 @@
     font-size: var(--f-size-small);
 }
 
+.t-tema .c-txt--tiny{
+    font-size: var(--f-size-tiny);
+}
+
+.t-tema .c-txt--big{
+    font-size: var(--f-size-big);
+}
+
 .t-tema .c-txt--azul{
     color: var(--c-azul-2);
 }
@@ -90,10 +101,11 @@
 
 .t-tema .c-txt--tt{
     font-size: var(--f-size-normal);
+    font-weight: bold;
 }
 
 .t-tema .c-txt--tt-alt{
-    font-size: var(--f-size-big);
+    font-size: var(--f-size-huge);
 }
 
 .t-tema .c-txt--tt.c-txt--branco{
@@ -110,4 +122,52 @@
 
 .t-tema .c-ct--azul{
     background-color: var(--c-azul-1);
+}
+
+/****************************************************/
+/********************** BARRA ***********************/
+/****************************************************/
+
+.c-bar{
+    background-color: var(--c-azul-2);
+}
+
+.c-bar-10{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 10%,var(--c-azul-2) 10%,var(--c-azul-2) 100%);
+}
+
+.c-bar-20{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 20%,var(--c-azul-2) 20%,var(--c-azul-2) 100%);
+}
+
+.c-bar-30{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 30%,var(--c-azul-2) 30%,var(--c-azul-2) 100%);
+}
+
+.c-bar-40{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 40%,var(--c-azul-2) 40%,var(--c-azul-2) 100%);
+}
+
+.c-bar-50{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 50%,var(--c-azul-2) 50%,var(--c-azul-2) 100%);
+}
+
+.c-bar-60{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 60%,var(--c-azul-2) 60%,var(--c-azul-2) 100%);
+}
+
+.c-bar-70{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 70%,var(--c-azul-2) 70%,var(--c-azul-2) 100%);
+}
+
+.c-bar-80{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 80%,var(--c-azul-2) 80%,var(--c-azul-2) 100%);
+}
+
+.c-bar-90{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 90%,var(--c-azul-2) 90%,var(--c-azul-2) 100%);
+}
+
+.c-bar-100{
+    background: linear-gradient(to right, var(--c-branco) 0%,var(--c-branco) 1000%,var(--c-azul-2) 100%,var(--c-azul-2) 100%);
 }
