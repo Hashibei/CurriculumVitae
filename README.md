@@ -12,3 +12,6 @@ This project was fully developed and delivered.
 
 ## Development 
  * Written by Joseph Oliveira Corrêa (Hashibei), <joseph.oliveira.correa@gmail.com>, February 2022.
+
+## Website
+ * This project can be seen in: <https://hashibei.github.io/CurriculumVitae/>
